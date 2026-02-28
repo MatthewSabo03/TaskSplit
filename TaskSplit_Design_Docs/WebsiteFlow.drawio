@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.0">
+  <diagram name="Page-1" id="FuL-hAZD88IPqyYC8FFk">
+    <mxGraphModel dx="1188" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;TaskSplit Website Flowchart&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="315" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="100" width="60" x="80" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-4" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ui7cN7Ttwhdr8p7D-NXI-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="340" />
+            </Array>
+            <mxPoint x="210" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-10" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ui7cN7Ttwhdr8p7D-NXI-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;If User not logged in:&lt;/div&gt;&lt;div&gt;Home Page&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-14" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ui7cN7Ttwhdr8p7D-NXI-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="235" />
+              <mxPoint x="330" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-16" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Ui7cN7Ttwhdr8p7D-NXI-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-20" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="Ui7cN7Ttwhdr8p7D-NXI-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;If User Logged In:&lt;/div&gt;&lt;div&gt;Task List Page&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Ui7cN7Ttwhdr8p7D-NXI-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="340" />
+            </Array>
+            <mxPoint x="140" y="340" as="sourcePoint" />
+            <mxPoint x="230" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-12" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" target="Ui7cN7Ttwhdr8p7D-NXI-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Login Page" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-24" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="Ui7cN7Ttwhdr8p7D-NXI-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;If new user:&lt;/div&gt;&lt;div&gt;Registration&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Habit List" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-15" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Account Details" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-22" edge="1" parent="1" source="Ui7cN7Ttwhdr8p7D-NXI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="Ui7cN7Ttwhdr8p7D-NXI-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="New Task" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;Breakdown&lt;/div&gt;&lt;div&gt;Task&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ui7cN7Ttwhdr8p7D-NXI-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;Register&lt;/div&gt;&lt;div&gt;Account&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="240" y="525" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

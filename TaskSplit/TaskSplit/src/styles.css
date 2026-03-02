@@ -1,3 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-/* body {
-    background-color: rgb(255, 255, 255); /*rgb(4, 4, 27);*/
+/* rgb(4, 4, 27); */
+body {
+    background-color: rgb(4, 4, 27);
+}
+
+#form {
+    padding: 4rem;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    margin: 0.5rem;
+    background-color: #ffff;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}

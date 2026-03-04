@@ -1,1 +1,12 @@
-<p>task-list works!</p>
+<div>
+    <input type="text" #taskText placeholder="Add Task">
+    <button (click)="addTask(taskText.value)">Add</button>
+</div>
+
+<ul>
+    <li *ngFor="let taskItem of taskList">
+        <input type="checkbox" [(checked)]="taskItem.completed" (change)="completeTask(taskItem.id)" />
+        <span [class.completed]="taskItem.completed">{{ taskItem.task }}</span>
+        <button (click)="deleteTask(taskItem.id)">Delete</button>
+    </li>
+</ul>

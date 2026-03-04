@@ -1,1 +1,26 @@
-<p>registration works!</p>
+<form [formGroup]="registrationForm" id="form" (ngSubmit)="register()">
+    <h2 id="title">TaskSplit Registration</h2>
+
+    <div class="input-row">
+        <div class="input-group">
+            <label for="name">Name: </label>
+            <input id="name" type="text" formControlName="name" />
+        </div>
+    </div>
+
+    <div class="input-row">
+        <div class="input-group">
+            <label for="email">Email: </label>
+            <input id="email" type="text" formControlName="email" />
+        </div>
+    </div>
+
+    <div class="input-row">
+        <div class="input-group">
+            <label for="password">Password: </label>
+            <input id="password" type="password" formControlName="password" />
+        </div>
+    </div>
+
+    <button type="submit" id="btn">Submit</button>
+</form>

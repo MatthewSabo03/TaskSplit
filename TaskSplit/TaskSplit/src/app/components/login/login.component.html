@@ -1,1 +1,21 @@
-<p>login works!</p>
+<form [formGroup]="loginForm" id="form" (ngSubmit)="login()">
+    <h2 id="title">TaskSplit Login</h2>
+    <div class="input-row">
+        <div class="input-group">
+            <label for="email">Email: </label>
+            <input id="email" type="text" formControlName="email" />
+        </div>
+    </div>
+
+    <div class="input-row">
+        <div class="input-group">
+            <label for="password">Password: </label>
+            <input id="password" type="password" formControlName="password" />
+        </div>
+        <p>
+            show password<input type="checkbox" id="showpassword" (change)="showPassword()" />
+        </p>
+    </div>
+
+    <button type="submit" id="btn">Submit</button>
+</form>
